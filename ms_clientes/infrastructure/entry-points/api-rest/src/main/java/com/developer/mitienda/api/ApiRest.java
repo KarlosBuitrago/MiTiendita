@@ -1,7 +1,8 @@
 package com.developer.mitienda.api;
+import com.developer.mitienda.usecase.registrarclientes.RegistrarClientesUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,10 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiRest {
 //    private final MyUseCase useCase;
 
+    private final RegistrarClientesUseCase useCase;
 
-    @GetMapping(path = "/path")
-    public String commandName() {
-//      return useCase.doAction();
-        return "Hello World";
+
+    @PostMapping(path = "/Guardar")
+    public Clientes guardarCliente(Clientes cliente) {
+        return useCase.save(cliente);
     }
+
+    public Clientes obtenerCliente(Long id){
+        return useCase.getClient(id);
+    }
+
+
 }
