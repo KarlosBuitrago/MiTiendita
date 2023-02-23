@@ -14,6 +14,10 @@
             <option value="$PROJECT_DIR$/applications/app-service" />
             <option value="$PROJECT_DIR$/domain/model" />
             <option value="$PROJECT_DIR$/domain/usecase" />
+            <option value="$PROJECT_DIR$/infrastructure/driven-adapters/jpa-repository" />
+            <option value="$PROJECT_DIR$/infrastructure/entry-points/api-rest" />
+            <option value="$PROJECT_DIR$/infrastructure/helpers/helper-clientes" />
+            <option value="$PROJECT_DIR$/infrastructure/helpers/metrics" />
           </set>
         </option>
       </GradleProjectSettings>

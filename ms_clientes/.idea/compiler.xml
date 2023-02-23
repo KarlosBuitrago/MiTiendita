@@ -7,12 +7,20 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
         </processorPath>
+        <module name="Clientes.app-service.main" />
+        <module name="Clientes.metrics.test" />
+        <module name="Clientes.helper-clientes.main" />
+        <module name="Clientes.api-rest.test" />
+        <module name="Clientes.usecase.main" />
+        <module name="Clientes.jpa-repository.main" />
+        <module name="Clientes.model.main" />
+        <module name="Clientes.model.test" />
+        <module name="Clientes.jpa-repository.test" />
+        <module name="Clientes.api-rest.main" />
+        <module name="Clientes.metrics.main" />
         <module name="Clientes.app-service.test" />
         <module name="Clientes.usecase.test" />
-        <module name="Clientes.app-service.main" />
-        <module name="Clientes.model.test" />
-        <module name="Clientes.usecase.main" />
-        <module name="Clientes.model.main" />
+        <module name="Clientes.helper-clientes.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
